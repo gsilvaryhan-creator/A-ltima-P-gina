@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>As Memórias de Sofia</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a24;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #game-container {
+            width: 100vw;
+            height: 56.25vw; /* Proporção 16:9 de tela de celular deitado */
+            max-height: 100vh;
+            max-width: 177.78vh;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+</head>
+<body>
+
+    <div id="game-container"></div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
